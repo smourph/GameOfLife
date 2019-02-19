@@ -97,6 +97,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Accepts WebGL Builds in docs/ folder
+!docs/[Bb]uild/
+!docs/[Bb]uilds/
+
 
 ### Windows ###
 # Windows thumbnail cache files
