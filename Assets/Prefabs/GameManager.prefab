@@ -59,7 +59,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e802c68611cc8483ea33598994fd56cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  columns: 10
-  rows: 10
+  columns: 20
+  rows: 20
+  rabbitsCount:
+    min: 40
+    max: 60
+  foxesCount:
+    min: 7
+    max: 12
   floorModels:
   - {fileID: 157130, guid: a63d3999a4bb94e31b464c6615816b26, type: 3}
+  rabbitModels:
+  - {fileID: 141534, guid: a4c62f54611ae4b129d6ac636c09bba9, type: 3}
+  - {fileID: 186862, guid: 95272c2d40e2e4790ab7373412a7b9be, type: 3}
+  - {fileID: 107382, guid: 9d4d1ab7b8da248e2bbcf12177eeabb7, type: 3}
+  foxModels:
+  - {fileID: 127546, guid: f1491e257df8f456d80061ecd0ae153f, type: 3}
+  - {fileID: 110416, guid: d633d259a8b1b4576819ea2a5b26946a, type: 3}
+  - {fileID: 142838, guid: 5f04d07688eda47ac825238d4b420234, type: 3}
